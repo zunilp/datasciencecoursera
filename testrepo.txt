@@ -1,0 +1,13 @@
+New Features
+
+Comes with Git 1.9.4 plus Windows-specific patches
+Add vimtutor (msysgit PR #220)
+Update OpenSSH to 6.6.1p1 and its OpenSSL to 1.0.1i (msysgit PR #221, #223, #224, #226, #229, #234, #236)
+Update mingw OpenSSL to 0.9.8zb (msysgit PR #241, #242)
+Bugfixes
+
+Checkout problem with directories exceeding MAX_PATH (PR msysgit/git#212, msysgit #227)
+Backport a webdav fix from junio/maint (d9037e http-push.c: make CURLOPT_IOCTLDATA a usable pointer, PR msysgit/git#230)
+Regressions
+
+git svn is/might be broken (unless you use Vagrant). Fixes welcome.
